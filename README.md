@@ -19,9 +19,9 @@ Model	Performance
 Best Model (RF / XGBoost ensemble)	R² = 0.783
 Error	RMSE = 1.116 logS
 
-#The hybrid feature approach significantly outperformed single-representation baselines.
+# The hybrid feature approach significantly outperformed single-representation baselines.
 
-#Tech Stack:
+# Tech Stack:
 *Python
 *RDKit
 *scikit-learn
@@ -36,7 +36,7 @@ Input SMILES strings
 Generate molecular features
 Predict aqueous solubility (logS) instantly
 
-#Collaboration
+# Collaboration
 
 This project was developed collaboratively by:
 
@@ -44,7 +44,7 @@ This project was developed collaboratively by:
 *Mirna Ashri
 *Patrick Laborbe
 
-#Acknowledgements
+# Acknowledgements
 
 ESOL dataset contributors
 AqSolDB database team
