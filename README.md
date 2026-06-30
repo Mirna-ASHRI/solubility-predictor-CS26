@@ -19,7 +19,7 @@ Model	Performance
 Best Model (RF / XGBoost ensemble)	R² = 0.783
 Error	RMSE = 1.116 logS
 
-# The hybrid feature approach significantly outperformed single-representation baselines.
+**The hybrid feature approach significantly outperformed single-representation baselines.**
 
 # Tech Stack:
 *Python
@@ -55,7 +55,7 @@ AqSolDB database team
 RDKit development community
 Strasbourg Summer School on Chemoinformatics (2026)
 
-#Future Work
+# Future Work
 *Hyperparameter optimization with Bayesian search
 *Extend the scope of the datasets used
 *Deep learning models (Graph Neural Networks)
