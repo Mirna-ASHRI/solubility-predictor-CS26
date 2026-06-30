@@ -23,12 +23,16 @@ Error	RMSE = 1.116 logS
 
 # Tech Stack:
 *Python
+
 *RDKit
+
 *scikit-learn
+
 *XGBoost
+
 *Random Forest
-*Streamlit
-*Web Application
+
+*Streamlit Web Application
 
 A Streamlit-based interface allows users to:
 
