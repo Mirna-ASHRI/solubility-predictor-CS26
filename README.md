@@ -3,7 +3,7 @@ This project focuses on predicting aqueous solubility (logS) of chemical compoun
 
 The system is trained on approximately 9,980 compounds from ESOL and AqSolDB datasets and demonstrates strong predictive accuracy using ensemble learning methods.
 
-Key Features:
+# Key Features:
 *Hybrid molecular feature engineering using:
 -Morgan fingerprints (circular fingerprints)
 -Physicochemical descriptors (RDKit)
@@ -14,14 +14,14 @@ Key Features:
 *Interactive web app for real-time prediction from SMILES input
 *Poster presentation at the 2026 Strasbourg Summer School on Chemoinformatics
 
-Results:
+# Results:
 Model	Performance
 Best Model (RF / XGBoost ensemble)	R² = 0.783
 Error	RMSE = 1.116 logS
 
-The hybrid feature approach significantly outperformed single-representation baselines.
+#The hybrid feature approach significantly outperformed single-representation baselines.
 
-Tech Stack:
+#Tech Stack:
 *Python
 *RDKit
 *scikit-learn
@@ -36,7 +36,7 @@ Input SMILES strings
 Generate molecular features
 Predict aqueous solubility (logS) instantly
 
-Collaboration
+#Collaboration
 
 This project was developed collaboratively by:
 
@@ -44,15 +44,16 @@ This project was developed collaboratively by:
 *Mirna Ashri
 *Patrick Laborbe
 
-Acknowledgements
+#Acknowledgements
 
 ESOL dataset contributors
 AqSolDB database team
 RDKit development community
 Strasbourg Summer School on Chemoinformatics (2026)
 
-Future Work
+#Future Work
 *Hyperparameter optimization with Bayesian search
+*Extend the scope of the datasets used
 *Deep learning models (Graph Neural Networks)
 *Uncertainty quantification for predictions
 *Deployment as a cloud-based API
